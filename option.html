@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Options</title>
+        <style>
+            .parent{
+                border: 3px solid green;
+                background-color: black;
+                color: white;
+                width: 100px;
+                font-size: larger;
+                font-weight: bolder;
+                position: relative;
+                border-radius: 4px;
+                cursor: pointer;
+                box-shadow: 0 0 15px rgb(255, 95, 32);
+       
+                }
+            .child{
+                border: 4px solid rgba(21, 188, 234, 0.638);
+                /* color: rgba(222, 229, 0, 0.896); */
+                width: fit-content;
+                position: absolute;
+                display: none;
+            }
+            .parent:hover .child{
+                display: block;
+            }
+            .child div:hover{
+                background-color: rgba(255, 0, 174, 0.601);
+                color: white;
+                border-bottom: 2px solid black;
+            }
+        </style>
+        <body>
+            <center>
+            <div class="parent">Select
+                <div class="child">
+                    <div>option 1</div>
+                    <div>option 2</div>
+                    <div>option 3</div>
+                    <div>option 4</div>
+                </div>
+            </div>
+            </center>
+        </body>
+    </head>
+</html>

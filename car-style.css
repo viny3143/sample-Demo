@@ -1,0 +1,218 @@
+.head{
+    border:2px solid black;
+    width: 1280px;
+    height: 476px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    overflow: hidden;
+}
+.could{
+    border: 2px solid skyblue;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: skyblue;
+    position: absolute;
+    box-shadow: 0 0 5px white;
+    overflow: hidden;
+}
+.c1{
+    top: -100;
+    left: -20;
+}
+.c2{
+    top: -100;
+    left: 150;
+}
+.c3{
+    top: -120;
+    left: 330;
+}
+
+.c4{
+    top: -105;
+    left: 525;
+}
+.c5{
+    top: -125;
+    left: 700;
+}
+.c6{
+
+    top: -140;
+    left: 850;
+}
+.c7{
+   
+    top: -100;
+    left: 1000;
+}
+.c8{
+    top: -125;
+    left: 1100;
+}
+.sun{
+    border: 2px solid goldenrod;
+    height: 125px;
+    width: 125px;
+    background-color: goldenrod;
+    border-radius: 50%;
+    position: absolute;
+    left: 900;
+    top: 20;
+    box-shadow: 0px 0px 25px rgb(252,102,86);
+}
+.road{
+    border: 2px solid black;
+    width: 1280px;
+    height: 150px;
+    background:  black;
+    position: absolute;
+    bottom: 0;
+}
+.lines{
+    border: 2px solid white;
+    position: absolute;
+    height: 10px;
+    width: 70px;
+    background-color: white;
+}
+.l1{
+    bottom: 8;
+    left: 5;
+}
+.l2{
+    bottom: 8;
+    left: 100;
+}
+.l3{
+    bottom: 8;
+    left: 200;
+}
+.l4{
+    bottom: 8;
+    left: 300;
+}
+.l5{
+    bottom: 8;
+    left: 400;
+}
+.l6{
+    bottom: 8;
+    left: 500;
+}
+.l7{
+    bottom: 8;
+    left: 600;
+}
+.l8{
+    bottom: 8;
+    left: 700;
+}
+.l9{
+    bottom: 8;
+    left: 800;
+}
+.l10{
+    bottom: 8;
+    left: 900;
+}
+.l11{
+    bottom: 8;
+    left: 1000;
+}
+.l12{
+    bottom: 8;
+    left: 1100;
+}
+.l13{
+    bottom: 8;
+    left: 1200;
+}
+.truck_body{
+    border: 2px solid black;
+    height: 70px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    bottom: 80;
+    left: 200;
+    overflow: hidden;
+}
+.truck_head{
+    border: 2px solid black;
+    height: 55px;
+    width: 125px;
+    background-color: rgb(148, 24, 24);
+    position: absolute;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    bottom: 150;
+    left: 240;
+}
+.wheel{
+    border: 3px solid white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+}
+.w1{
+    left: 210;
+    bottom: 40;
+}
+.w2{
+    left: 325;
+    bottom: 40;
+}
+.light{
+    border: 2px solid black;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    background-color: lightgoldenrodyellow;
+    border-radius: 50%;
+}
+.light_1{
+    right: -7;
+    top: -2;
+}
+.light_2{
+    right:-5 ;
+    top: 18;
+}
+.set{
+    border: 2px solid white;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 0 20px white;
+}
+.s1{
+    left: 25;
+    top: 25;
+}
+.s2{
+    left: 25;
+    top: 25;
+}
+.window{
+    border: 2px solid white;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+}
+.win1{
+    left: 10;
+    bottom: 0;
+}
+.win2{
+    left: 40;
+    bottom: 0;
+}

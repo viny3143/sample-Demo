@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Flexing</title>
+        <style>
+            .parent{
+                border: 2px solid black;
+                width: 100%;
+                height:80svh;
+                display: grid;
+                grid-template-rows: 2fr 2fr 1fr;
+                grid-template-columns: 2fr 2fr 1fr;
+                background-color: black;
+            }
+            .child{
+                border: 2px solid black;
+                width: 150px;
+                height: 150px;
+                background-color:#ef12a9f0;
+                border-radius: 50%;
+                box-shadow: 0 0 50px white;
+            }
+            .child:nth-child(5)
+            {
+                background-color: antiquewhite;
+            }
+            .child:nth-child(4)
+            {
+                justify-self: flex-end;
+            }
+            .child:nth-child(6)
+            {
+                justify-self: flex-start;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child">1</div>
+            <div class="child">2</div>
+            <div class="child">3</div>
+            <div class="child">4</div>
+            <div class="child">5</div>
+            <div class="child">6</div>
+            <div class="child">7</div>
+            <div class="child">8</div>
+            <div class="child">9</div>
+        </div>
+    </body>
+</html>

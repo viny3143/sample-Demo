@@ -1,0 +1,22 @@
+.class1{
+    border: 10px solid gold;
+    width: 96%;
+    height: 96%;
+    font-size: 100px;
+    font-weight: 100;
+    /* background-color: greenyellow; */
+    color: rgb(21, 20, 20); 
+    position:fixed;  
+    z-index: 100;
+}
+.class2{
+    position:sticky;
+    border: 2px solid black;
+    background: rgb(237, 79, 168);
+    height: 30px;
+    width: 300px;
+    top: 10%;
+}
+body{
+    height: 200svh;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Analog Clock</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .clock {
+            width: 1400px;
+            height: 1400px;
+            border: 50px double black;
+            border-radius: 50%;
+            position: relative;
+            background: white;
+        }
+        .hand {
+            width: 50%;
+            height: 6px;
+            background: black;
+            position: absolute;
+            top: 50%;
+            transform-origin: 100%;
+        }
+        .hand.hour {
+            height: 8px;
+            width: 35%;
+            position: absolute;
+            left: 15%;
+            transform: rotate(90deg);
+            transform: rotate(180deg);
+            animation: minute 43200s linear infinite;
+        }
+        .hand.minute {
+            height: 6px;
+            width: 40%;
+            position: absolute;
+            left: 10%;
+            transform-origin: 100%;
+            transform: rotate(180deg);
+            animation: minute 1m linear infinite;
+        }
+        .hand.second {
+            height: 10px;
+            width: 40%;
+            position: absolute;
+            left: 120px;
+            background: red;
+            transform-origin: 100%;
+            transform: rotate(0deg);
+            animation: second 60s steps(60) infinite;
+        }
+        .center-point {
+            width: 30px;
+            height: 30px;
+            background: black;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .number {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            font-size: 100px;
+            font-weight: bold;
+        }
+        .number1  { top: 55px; left: 920px; }
+        .number2  { top: 285px; left: 1195px; }
+        .number3  { top: 605px; left: 1305px; }
+        .number4  { top: 910px; left: 1235px; }
+        .number5  { top: 1165px; left: 1040px; }
+        .number6  { top: 1290px; left: 645px; }
+        .number7  { top: 1145px; left: 235px; }
+        .number8  { top: 900px; left: 35px; }
+        .number9  { top: 640px; left: 35px; }
+        .number10 { top: 280px; left: 120px; }
+        .number11 { top: 90px; left: 350px; }
+        .number12 { top: 20px; left: 625px; }
+        @keyframes second {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes minute {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes hour {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="clock">
+        <div class="hand hour"></div>
+        <div class="hand minute"></div>
+        <div class="hand second"></div>
+        <div class="center-point"></div>
+        <div class="number number1">1</div>
+        <div class="number number2">2</div>
+        <div class="number number3">3</div>
+        <div class="number number4">4</div>
+        <div class="number number5">5</div>
+        <div class="number number6">6</div>
+        <div class="number number7">7</div>
+        <div class="number number8">8</div>
+        <div class="number number9">9</div>
+        <div class="number number10">10</div>
+        <div class="number number11">11</div>
+        <div class="number number12">12</div>
+    </div>
+</body>
+</html>

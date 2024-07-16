@@ -1,0 +1,105 @@
+/* .class1{
+    background-color: lightpink;
+    background-image: url(wedding.jpg);
+    background-size: cover;
+    margin:1% 50%;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100svh;
+} */
+ /* .class1{
+    border: 2px solid black;
+    height: 600px;
+    width: 600px;
+    margin: 5% 5%;
+    background-color: antiquewhite;
+ }
+ .class2{
+    margin-top: 8%;
+    margin-left: 8%;
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color:yellow;
+ }
+.class3{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 20% 20%;
+    background-color: white;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 20%;
+}
+.class4{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    margin: -50.5% 50%;
+    background-color: white;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 50%;
+}
+.class5{
+    border: 2px solid black;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 25% 15%;
+    background-color: black;
+}
+/* .class6{
+    border: 2px solid black;
+    width: 300px;
+    height: 100px;
+    margin:65% 20%;
+    background-color: aliceblue;
+    border-radius: 10%;
+} */
+/* .class6{
+    margin:80% 49%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 275px;
+    border-radius: 0 0 150px 150px;
+    background-color: lightyellow
+} */
+/* .semi-circle {
+    position: absolute;
+    margin: 50% 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 250px;
+    border-radius: 0 0 150px 150px;
+    background-color: white;
+} */
+/* .nose {
+	width: 10px;
+	height: 20px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid hsla(0, 53%, 51%, 0.834);
+    margin: 20px -20px;
+    text-shadow: 0 0 10px black;
+} */
+/* .mouth{
+    border: 2px solid black;
+    width: 250px;
+    height: 100px;
+    margin: 70% 25%;
+    border-radius: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+} */ */
+.class1{
+    height: 100px;
+    width: 100px;
+    border:  10px 20px solid black;
+    background-color: aquamarine;
+    background-image: url(./wallpaper-2.jpg);
+}

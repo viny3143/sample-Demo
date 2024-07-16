@@ -1,0 +1,27 @@
+table,td{
+    border-collapse: collapse;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: rgba(179, 174, 175, 0.215);
+}
+tr:first-child{
+    background-color: aqua;
+}
+table{
+    border: 2px solid black;
+    border-radius: 15px;
+    border-collapse: collapse;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(20, 19, 20);
+} 
+tr:hover{
+    background-color: aquamarine;
+}
+tr,td{
+    border: 2px solid black;
+}
+td:hover{
+    background-color: rosybrown;
+}
